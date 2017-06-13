@@ -1,0 +1,12 @@
+*.sdf
+*.opensdf
+*.obj
+*.ilk
+*.lib
+*.log
+*.pch
+*.pdb
+*.tlog
+*.idb
+/Simulator/EyesWebModules/Win32/Debug/*.dll
+/Simulator/EyesWebModules/Win32/Debug/*.res
