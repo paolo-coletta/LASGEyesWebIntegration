@@ -1,0 +1,10 @@
+# infrared
+ir1, infrared, 0.0, 0.0, 0.0
+ir2, infrared, 1.0, 0.0, 0.0
+ir3, infrared, 0.0, 1.0, 0.0
+ir4, infrared, 1.0, 1.0, 0.0
+ir5, infrared, 0.5, 0.5, 0.0
+
+# SMA + infrared
+sma-ir1, sma-infrared, 0.0, 0.5, 0.0
+sma-ir2, sma-infrared, 1.0, 0.5, 0.0

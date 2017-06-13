@@ -1,0 +1,1 @@
+D:\Users\paolo\Development\EyesWeb\Bin\Win32\Debug\EywconsoleD.exe --rcf-server --server-path D:\Users\paolo\Development\LASG\patches
