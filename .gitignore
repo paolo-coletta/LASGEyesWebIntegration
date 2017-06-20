@@ -10,3 +10,5 @@
 *.idb
 /Simulator/EyesWebModules/Win32/Debug/*.dll
 /Simulator/EyesWebModules/Win32/Debug/*.res
+/Simulator/PythonScripts/*.pyc
+/Simulator/EyesWebModules/*.suo
