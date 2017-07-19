@@ -8,3 +8,9 @@ ir5, infrared, 0.5, 0.5, 0.0
 # SMA + infrared
 sma-ir1, sma-infrared, 0.0, 0.5, 0.0
 sma-ir2, sma-infrared, 1.0, 0.5, 0.0
+
+# light
+light1, light, 0.3, 0.3, 0.0
+light2, light, 0.7, 0.3, 0.0
+light3, light, 0.3, 0.7, 0.0
+light4, light, 0.7, 0.7, 0.0

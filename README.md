@@ -6,3 +6,12 @@ Modules for integration with EyesWeb
 
 - Simulator contains EyesWeb blocks, Python script, and EyesWeb patches to implement the simulator.
 
+
+Next steps
+
+- Interaction with multiple user
+
+- Sample python client
+
+- Simulate other sensors (microphone, light)
+

@@ -18,7 +18,7 @@ def read_csv( filename ):
 				if( label.startswith( '#')  ):
 					continue
 				
-				if( (type == 'infrared') or (type == 'sma-infrared') ):
+				if( (type == 'infrared') or (type == 'sma-infrared') or (type == 'light') ):
 					sensors = []
 					if type in topology:
 						sensors = topology[type]

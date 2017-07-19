@@ -68,6 +68,22 @@ def init_patches( kernel, sensor_type, sensors ):
 			p.add_block_output_listener( 'Accelerometer_X', 'Output' )
 			p.add_block_output_listener( 'Accelerometer_Y', 'Output' )
 			p.add_block_output_listener( 'Accelerometer_Z', 'Output' )
+			
+	elif sensor_type == 'light':
+		for sma in sensors:
+			p = kernel.load_patch( 'simulator_light_sensor.eywx' )
+			patches.append( p )
+			
+			p.set_block_parameter( 'SensorPosition', 'x_parameter', eyesweb_mobile.double_parameter(sma.x) )
+			p.set_block_parameter( 'SensorPosition', 'y_parameter', eyesweb_mobile.double_parameter(sma.y) )
+			p.set_block_parameter( 'SensorPosition', 'z_parameter', eyesweb_mobile.double_parameter(sma.z) )
+			
+			cbk=my_callback()
+			callbacks.append(cbk)
+			cbk.block_name = sma.name
+			cbk.sensor_type = sensor_type
+			p.set_callback( cbk )
+			p.add_block_output_listener( 'LightSensor', 'Output' )
 	
 	return ( patches, callbacks )
 	
