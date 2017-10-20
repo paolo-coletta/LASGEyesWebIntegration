@@ -71,12 +71,14 @@ def _create_circle_arc(self, x, y, r, **kwargs):
 Tkinter.Canvas.create_circle_arc = _create_circle_arc
 
 colors = {
-    'infrared': 'blue',
+    'infrared': 'gray',
     'sma-infrared': 'green',
+    'light': 'pink',
 }
 highlighted_colors = {
-    'infrared': 'red',
+    'infrared': 'blue',
     'sma-infrared': 'yellow',
+    'light': 'red',
 }
 
 for sensor_type in sculpture:
